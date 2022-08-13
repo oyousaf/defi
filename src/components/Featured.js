@@ -23,7 +23,7 @@ const Featured = () => {
   if (!data) return null;
 
   return (
-    <div className="featured">
+    <div name="featured" className="featured">
       <div className="container">
         <div className="left">
           <h2>Explore top Cryptos Like Bitcoin, Ethereum and Dogecoin</h2>

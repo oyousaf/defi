@@ -4,7 +4,7 @@ import Crypto from "../assets/trade.png";
 
 const Signup = () => {
   return (
-    <div className="signup">
+    <div name="earn" className="signup">
       <div className="container">
         <div className="left">
           <img src={Crypto} alt="/" />
@@ -17,8 +17,8 @@ const Signup = () => {
             each month with no lockups or limits.
           </p>
           <div className="input-container">
-            <input type='email' placeholder="Enter your email..." />
-            <button className="btn">Learn More</button> 
+            <input type="email" placeholder="Enter your email..." />
+            <button className="btn">Learn More</button>
           </div>
         </div>
       </div>
