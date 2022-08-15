@@ -23,6 +23,28 @@
     margin: 2rem 0;
 }
 
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.arrow {
+    border-radius: 9999px;
+    background-color: var(--primary);
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow-color: var(--primary);
+    --tw-shadow: var(--tw-shadow-colored);
+    padding: 1rem/* 16px */;
+    cursor: pointer;
+}
+
+.chevron {
+    color: white;
+}
+
 @media screen and (max-width:940px) {
     .signup .container {
         grid-template-columns: 1fr;

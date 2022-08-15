@@ -1,6 +1,8 @@
 import React from "react";
 import "./Signup.css";
 import Crypto from "../assets/trade.png";
+import { Link } from "react-scroll";
+import { HiChevronDoubleUp } from "react-icons/hi";
 
 const Signup = () => {
   return (
@@ -21,6 +23,13 @@ const Signup = () => {
             <button className="btn">Learn More</button>
           </div>
         </div>
+      </div>
+      <div className="top">
+        <Link to="home" smooth={true} duration={500} alt="top">
+          <div className="arrow">
+            <HiChevronDoubleUp className="chevron" size={30} />
+          </div>
+        </Link>
       </div>
     </div>
   );
