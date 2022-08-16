@@ -26,7 +26,6 @@
 .top {
     display: flex;
     justify-content: center;
-    padding: 2rem;
 }
 
 .arrow {
@@ -37,12 +36,12 @@
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     --tw-shadow-color: var(--primary);
     --tw-shadow: var(--tw-shadow-colored);
-    padding: 1rem/* 16px */;
     cursor: pointer;
 }
 
 .chevron {
     color: white;
+    margin: 1rem;
 }
 
 @media screen and (max-width:940px) {
