@@ -40,9 +40,9 @@ const Navbar = () => {
         </div>
         <div onClick={handleClick} className="hamburger">
           {click ? (
-            <FaTimes size={20} style={{ color: "var(--primary)" }} />
+            <FaTimes size={30} style={{ color: "var(--primary)" }} />
           ) : (
-            <FaBars size={20} style={{ color: "var(--primary)" }} />
+            <FaBars size={30} style={{ color: "var(--primary)" }} />
           )}
         </div>
       </div>
